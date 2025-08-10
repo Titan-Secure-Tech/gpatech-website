@@ -1,6 +1,5 @@
 import * as React from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -297,8 +296,8 @@ export default function Home() {
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold mb-4">Join Our Mission</h3>
                 <p>
-                  Whether you're a student ready to start your tech journey, a parent looking for the best 
-                  education for your child, or a supporter of our mission, we'd love to hear from you.
+                  Whether you&apos;re a student ready to start your tech journey, a parent looking for the best 
+                  education for your child, or a supporter of our mission, we&apos;d love to hear from you.
                 </p>
                 <div className="flex gap-4">
                   <Button className="bg-blue-600 hover:bg-blue-700 text-white">
